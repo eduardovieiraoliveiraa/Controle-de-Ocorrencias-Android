@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Cadastra_Ocorrencia"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewOc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="voltaMenu"
+        app:srcCompat="@drawable/brasao_corp" />
+
+    <EditText
+        android:id="@+id/tipoOcorrencia"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tipo da Ocorrenica"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/descricao"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Descrição"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações local da ocorrencia"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorBlue"/>
+
+    <EditText
+        android:id="@+id/Rua"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rua, numero"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cidadeCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cidade"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/estadoCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Estado"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CEP"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/verificaEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/desing_bt"
+        android:onClick="enderecoOo"
+        android:text="Verificar Endereço"
+        android:textColor="@color/colorWrite" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/cadastraOcorrencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Ocorrencia"
+        android:background="@drawable/desing_bt"
+        android:textColor="@color/colorWrite"/>
+
+
+</LinearLayout>
+</ScrollView>

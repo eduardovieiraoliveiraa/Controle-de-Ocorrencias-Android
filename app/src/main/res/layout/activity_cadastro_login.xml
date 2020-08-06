@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Cadastro_login"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="VoltaLogin"
+        app:srcCompat="@drawable/brasao_corp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informa_es_basicas"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/matricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/matricula"
+        android:inputType="number"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/ic_matricula"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informa_es_para_login"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/ic_username"
+        android:drawablePadding="5dp"
+        />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_senha"
+        android:inputType="textPassword"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/confsenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/confirma_de_senha"
+        android:inputType="textPassword"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+        android:id="@+id/cadastrarUsuario"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/desing_bt"
+        android:text="CADASTRAR"
+        app:spinning_bar_color="@android:color/white"
+        app:spinning_bar_padding="6dp"
+        app:spinning_bar_width="6dp"
+        android:textColor="@color/colorWrite"/>
+
+
+</LinearLayout>

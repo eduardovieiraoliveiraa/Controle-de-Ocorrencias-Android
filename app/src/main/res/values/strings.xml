@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Controle de Ocorrencias</string>
+    <string name="title_activity_maps">Controle de Ocorrencias</string>
+    <string name="cadastre_se_aqui">cadastre-se aqui</string>
+    <string name="bt_entrar">Entrar</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_user">E-mail</string>
+    <string name="confirma_de_senha">Confirmação de Senha</string>
+    <string name="usuario_de_login">Usuario de Login</string>
+    <string name="informa_es_para_login">INFORMAÇÕES PARA LOGIN</string>
+    <string name="matricula">Matricula</string>
+    <string name="nome">Nome</string>
+    <string name="informa_es_basicas">INFORMAÇÕES BASICAS</string>
+    <string name="e_mail">E-mail</string>
+    <string name="title_activity_mapa_ocorrencias">MapaOcorrencias</string>
+    <string name="title_activity_maps_ocorrencia">MapsOcorrencia</string>
+    <string name="title_activity_maps_satelite">Map</string>
+    <string name="title_activity_teste">Map</string>
+    <string name="title_activity_maps_bombeiros">Map</string>
+    <string name="title_activity_maps_corp">Map</string>
+</resources>

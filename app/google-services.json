@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "503145007645",
+    "firebase_url": "https://controle-de-ocorrencias.firebaseio.com",
+    "project_id": "controle-de-ocorrencias",
+    "storage_bucket": "controle-de-ocorrencias.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503145007645:android:f19b88bcb2506bfeb3d4f4",
+        "android_client_info": {
+          "package_name": "br.com.progvisual2.sdkgooglemaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503145007645-h3eveek0akov361um8p21e1sa4ono1gq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.progvisual2.sdkgooglemaps",
+            "certificate_hash": "bbc7fab7b885e66ae96c2e0193f75cab1095c2f5"
+          }
+        },
+        {
+          "client_id": "503145007645-oj8ub7vj28kkdtrbac6a7ph95qkk97pc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAytRWgssD3qjRVUksVknFpQ27h4MBIngs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503145007645-oj8ub7vj28kkdtrbac6a7ph95qkk97pc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

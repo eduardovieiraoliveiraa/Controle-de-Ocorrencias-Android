@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layoutmenu"
+        tools:context=".activity.Login"
+        >
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="350dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="72dp"
+            android:background="@drawable/design_edt"
+            android:drawableLeft="@drawable/ic_username"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/hint_user"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorBlue"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/animacao" />
+
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="350dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/design_edt"
+            android:drawableLeft="@drawable/ic_password"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/hint_senha"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorBlue"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/usuario" />
+
+        <ImageView
+            android:id="@+id/animacao"
+            android:layout_width="182dp"
+            android:layout_height="237dp"
+            android:layout_marginTop="36dp"
+            android:onClick="interage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/animacao" />
+
+        <TextView
+            android:id="@+id/cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastre_se_aqui"
+            android:textColor="@color/colorWrite"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Entrar"
+            app:layout_constraintVertical_bias="0.321" />
+
+        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+            android:id="@+id/Entrar"
+            android:layout_width="307dp"
+            android:layout_height="41dp"
+            android:background="@drawable/desing_bt"
+            android:text="ENTRAR"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/senha"
+            app:layout_constraintVertical_bias="0.352"
+            app:spinning_bar_color="@android:color/white"
+            app:spinning_bar_padding="6dp"
+            app:spinning_bar_width="6dp"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

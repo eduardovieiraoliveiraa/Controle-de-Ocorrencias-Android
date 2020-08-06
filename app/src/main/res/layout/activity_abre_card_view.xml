@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layoutmenu"
+    tools:context=".activity.AbreCardView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/fotoCard"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/image" />
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/tipoCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tipo"
+        android:textStyle="bold"
+        android:drawablePadding="5dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/line"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_tipo_oc"/>
+
+    <EditText
+        android:id="@+id/descCard"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:drawablePadding="5dp"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/tipoCard"
+        android:hint="Descrição"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_descricao"/>
+
+    <EditText
+        android:id="@+id/ruaCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_rua"
+        android:textStyle="bold"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/descCard"
+        android:hint="Rua"/>
+
+    <EditText
+        android:id="@+id/numeroCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/ruaCard"
+        android:drawablePadding="5dp"
+        android:hint="Numero"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_numero"/>
+
+    <EditText
+        android:id="@+id/cidadeCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/numeroCard"
+        android:layout_marginTop="10dp"
+        android:hint="Cidade"
+        android:drawablePadding="5dp"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_cidade"/>
+
+    <EditText
+        android:id="@+id/estadoCard"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/cidadeCard"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:hint="Estado"
+        android:drawablePadding="5dp"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_estado"/>
+
+    <EditText
+        android:id="@+id/latitudeCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:layout_below="@+id/estadoCard"
+        android:hint="Latitude"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_latitude"/>
+
+    <EditText
+        android:id="@+id/longitudeCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/latitudeCard"
+        android:layout_marginTop="10dp"
+        android:hint="Longitude"
+        android:drawablePadding="5dp"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_longitude"/>
+
+
+    <EditText
+        android:id="@+id/atendenteCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:layout_below="@+id/longitudeCard"
+        android:hint="Atendente"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_atendente"/>
+    <EditText
+        android:id="@+id/dataCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:layout_below="@+id/atendenteCard"
+        android:hint="Data"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/design_edt"
+        android:drawableLeft="@drawable/shape_data"/>
+</RelativeLayout>
+</ScrollView>

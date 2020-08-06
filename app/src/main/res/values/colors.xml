@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004E91</color>
+    <color name="colorPrimaryDark">#004E91</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorRed">#DD2115</color>
+    <color name="colorWrite">#FFFFFF</color>
+    <color name="colorBlue">#004E91</color>
+    <color name="colorGreen">#2F9731</color>
+    <drawable name="screen_background_light_transparent">#80ffffff</drawable>
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="transparent">#00000000</color>
+</resources>
